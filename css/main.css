@@ -612,7 +612,7 @@ img {
 }
 
 .portfolio-item:hover .overlay,
-.portfolio-item:focus .overlay {
+.portfolio-link:focus .overlay {
   transform: translateY(0);
 }
 
