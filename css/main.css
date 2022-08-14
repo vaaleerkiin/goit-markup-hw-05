@@ -51,7 +51,9 @@ ul {
 .nav-link:focus,
 .nav-link.current,
 .map-link:hover,
-.adress-link:hover {
+.map-link:focus,
+.adress-link:hover,
+.adress-link:focus {
   color: var(--color-accent);
 }
 
@@ -278,14 +280,17 @@ img {
 
 .work-item-title {
   position: absolute;
-  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  bottom: 0;
+  height: 70px;
   width: 100%;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
-  padding: 27px 0px;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-light);
@@ -599,7 +604,7 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translateY(100%);
+  transform: translateY(101%);
 
   width: 100%;
   height: 100%;
